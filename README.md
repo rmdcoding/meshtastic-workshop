@@ -2,9 +2,9 @@
 
 ## Step 1
 
-First, ensure you have python installed on your system. [The guide on Real Python](https://realpython.com/installing-python/) is good. Follow the directions for your operating system.
+First, ensure you have python installed on your system. [The guide on Real Python](https://realpython.com/installing-python/) is good if you've never installed python before. Follow the directions for your operating system.
 
-We recommend installing Python v3.13.1
+We recommend installing Python v3.13.1.
 
 ## Step 2
 
@@ -35,9 +35,12 @@ Install the [CP210x serial drivers](https://meshtastic.org/docs/getting-started/
 
 ## Step 5
 
-By the end of this setup process, you should be able to verify most of the tooling by running:
+By the end of this setup process, you should be able to verify the tooling by running:
 
 ```
+$ python3 --version
+Python 3.13.1
+
 $ meshtastic --version
 2.7.7
 
