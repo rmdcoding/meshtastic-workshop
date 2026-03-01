@@ -8,7 +8,7 @@ We recommend installing Python v3.13.1
 
 ## Step 2
 
-Once you have python installed, run the following command. 
+Once you have python installed, run the following commands. 
 
 ```
 $ python3 -m venv venv
@@ -23,11 +23,17 @@ This creates a `venv` of all the required tooling for our workshop:
 1. [PlatformIO Core](https://docs.platformio.org/en/latest/core/installation/index.html)
 1. [`esptool`](https://pypi.org/project/esptool/)
 
+Every time you start a new shell session, navigate to this folder and run the second command above to access these command line tools.
+
 ## Step 3
 
-You'll want to manually install a Chrome-based browser as well as the [CP210x serial drivers](https://meshtastic.org/docs/getting-started/serial-drivers/esp32/).
+Please install a Chrome-based browser; it's needed to access a serial connection to the device the workshop will provide.
 
 ## Step 4
+
+Install the [CP210x serial drivers](https://meshtastic.org/docs/getting-started/serial-drivers/esp32/).
+
+## Step 5
 
 By the end of this setup process, you should be able to verify most of the tooling by running:
 
